@@ -1114,6 +1114,9 @@ audio {
 #b7,#b77{
 	background-image: url('b7.png');
 }
+#b8,#b88{
+	background-image: url('b3.png');
+}
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
@@ -1299,8 +1302,42 @@ audio {
         color: #fff;
         background-color: #466baf;
     }
+.banner-container{
+position:relative;
+}
 
+.photo{
+width:220px;
+height:220px;
+position:absolute;
+object-fit:cover;
+border-radius:15px;
+display:none;
+}
 
+/* kiri atas */
+.photo-left-top{
+top:100px;
+left:5%;
+}
+
+/* kiri bawah */
+.photo-left-bottom{
+top:390px;
+left:5%;
+}
+
+/* kanan atas */
+.photo-right-top{
+top:100px;
+right:5%;
+}
+
+/* kanan bawah */
+.photo-right-bottom{
+top:390px;
+right:5%;
+}
 
     /*controlling tablet width*/
     /*@media only screen and (max-width: 720px){
